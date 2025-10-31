@@ -222,7 +222,7 @@ const TimeLineWidget1 = () => {
                       >
                         <img
                           src="
-                          https://www.oberoihotels.com/-/media/oberoi-hotel/the-oberoi-rajvilas/accommodation_rajvilas/kohinoor-villa-with-private-pool/ks_revised/820x646/kohinoor_suite_pool_area.jpg?w=724&hash=1a4968a78bc9df5c845ec4e75be5b46d"
+                          https://www.hollywoodreporterindia.com/_next/image?url=https%3A%2F%2Fcdn.robbreportindia.com%2Feditor-images%2F2025-08-28T11%253A25%253A35.681Z-Untitled%2520design%2520-%25202025-08-28T165518.440.jpg&w=3840&q=75"
                           alt={img.alt}
                           className={styles.about_horizontal_image}
                         />
@@ -324,7 +324,7 @@ const TimeLineWidget1 = () => {
                         className={styles.about_horizontal_image_wrapper}
                       >
                         <img
-                          src="https://www.oberoihotels.com/-/media/oberoi-hotel/the-oberoi-rajvilas/Rajvilas/Dining/suryamahal/desktop820x646/21.jpg"
+                          src="https://www.robbreportindia.com/_next/image?url=https%3A%2F%2Fcdn.robbreportindia.com%2Feditor-images%2F2025-08-28T11%253A11%253A14.898Z-Untitled%2520design%2520-%25202025-08-28T164050.661.jpg&w=1920&q=75"
                           alt={img.alt}
                           className={styles.about_horizontal_image}
                         />
@@ -406,7 +406,7 @@ const TimeLineWidget1 = () => {
                         className={styles.about_horizontal_image_wrap_big}
                       >
                         <img
-                          src="https://www.oberoihotels.com/-/media/oberoi-hotel/the-oberoi-rajvilas/wellness/spa_therapies/desktop820x646/oberoi_exp.jpg"
+                          src="https://www.robbreportindia.com/_next/image?url=https%3A%2F%2Fcdn.robbreportindia.com%2Feditor-images%2F2025-08-28T11%253A27%253A12.015Z-Untitled%2520design%2520-%25202025-08-28T165643.577.jpg&w=1200&q=75"
                           alt={img.alt}
                           className={styles.about_horizontal_image}
                         />
