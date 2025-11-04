@@ -26,6 +26,7 @@
   align-items: center;
   height: 100%;
   display: flex;
+  color: #fff;
 }
 .about_timeline_heading_wrapper {
   /* flex-flow: column; */
@@ -34,10 +35,9 @@
 }
 .about_timeline_heading {
   margin-bottom: 0;
-  font-family: miller-headline, serif !important;
-  font-size: 5rem !important;
+  font-size: 2rem !important;
   line-height: 1em;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   word-break: keep-all;
   font-weight: 100;
 }
@@ -53,15 +53,15 @@
 .about_horizontal_info {
   grid-template-rows: 1fr 5rem 1fr;
   height: 100%;
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
   display: grid;
-  color: var(--white);
+  font-family: Georgia, sans-serif;
 }
 .about_horizontal_progress {
   place-content: center flex-start;
   align-items: center;
   display: flex;
-  transform: translateX(-650%);
+  /* transform: translateX(-650%); */
 }
 .firstProgessIndicator:first-child{
   transform: translateX(0%);
@@ -105,10 +105,10 @@
   text-wrap: balance;
 }
 .u_mb_5 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 4rem;
 }
 .about_list {
-  list-style: square !important;
+  list-style: none !important;
 }
 .about_list_item {
   margin-bottom: 1.5rem;
@@ -151,7 +151,8 @@
   text-transform: inherit;
   text-wrap: pretty;
   margin-top: 1rem;
-  opacity: 0.6;
+  /* opacity: 0.6; */
+  font-family: Georgia, sans-serif;
 }
 .about_horizontal_image_column {
   grid-column-gap: 2rem;
@@ -178,7 +179,7 @@
 .about_progress_line {
   opacity: 0.2;
   transform-origin: 0%;
-  background-color: #ffffff;
+  background-color: #fff;
   width: 100%;
   height: 1px;
 }
@@ -187,10 +188,10 @@
   padding-right: 20vw;
 }
 .about_timeline_heading_wrapper.is_section_2 {
-  transform: translate(-50%);
+  transform: translate(-3%);
 }
 .is_section_1{
-  transform: translate(-20%);
+  transform: translate(-3%);
 }
 .about_horizontal_image_wrap_big {
   max-width: 20.125rem;
@@ -203,6 +204,9 @@
   } */
 }
 @media screen and (max-width: 991px) {
+  .u_mb_5 {
+    margin-bottom: 0rem;
+  }
   .horizontal{
     overflow: visible;
   }
@@ -213,7 +217,7 @@
   }
   .horizontal.is_about::after{
         content: "";
-    background: #ffffff;
+    background: #000;
     width: 1px;
     height: 100%;
     position: absolute;
